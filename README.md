@@ -16,4 +16,6 @@
 
 **ข้อจำกัดของ GitHub:** Repo นี้อยู่ใต้บัญชีส่วนตัว จึงให้สิทธิ์ collaborator แบบอ่านอย่างเดียวไม่ได้; ผู้ที่ถูกเชิญจะมีสิทธิ์เขียนใน repo นี้ด้วย. ก่อนเชิญผู้ทดสอบจริง ควรย้าย repo ดาวน์โหลดไปอยู่ใต้ GitHub Organization และให้ผู้ทดสอบสิทธิ์ **Read**. ระหว่างนี้เจ้าของ repo สามารถส่ง installer ให้ผู้ทดสอบเป็นการส่วนตัวได้.
 
+เมื่อ repo อยู่ใต้ Organization และให้สิทธิ์ Read แล้ว ผู้ทดสอบที่ใช้ Auto Update ควรสร้าง fine-grained personal access token ของตนเอง โดยเลือกเฉพาะ repo ดาวน์โหลดนี้และให้สิทธิ์ **Contents: Read** พร้อมวันหมดอายุสั้น ๆ. เก็บ token ไว้ในเครื่องของผู้ทดสอบเท่านั้น. [GitHub ระบุสิทธิ์ของ repo ส่วนตัว](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/repository-access-and-collaboration/permission-levels-for-a-personal-account-repository) และ [สิทธิ์อ่าน release asset ผ่าน API](https://docs.github.com/en/rest/releases/assets#get-a-release-asset).
+
 Auto Update ช่วง beta จะเริ่มใช้ได้เมื่อแอปมีการลงลายเซ็น updater, มี release metadata ครบ และทดสอบการอัปเดตข้ามเวอร์ชันจริงแล้ว. การมีไฟล์ติดตั้งใน Releases อย่างเดียวไม่ได้ทำให้ Auto Update ทำงาน.
