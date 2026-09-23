@@ -1,15 +1,15 @@
 {
-  "version": "0.1.1",
-  "notes": "First updater-enabled private beta for Apple Silicon and Windows. Install 0.1.1 manually; subsequent updates are available in Settings.",
-  "pub_date": "2026-09-23T18:46:45Z",
+  "version": "0.1.2",
+  "notes": "Signed beta update rehearsal for Apple Silicon and Windows. Install 0.1.1 first, then use Settings > Updates to upgrade to 0.1.2.",
+  "pub_date": "2026-09-23T18:56:32Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSWRUVlFsbmxwWFAxalpxVGo2NnhFOFYvVWhFbE11MStMam1RanZGV1AzU2pFS2lEa251ZDVnelllNWpkcTVuc013QW9pS0pCTzBvQ295ZkdNOTJDSzhOdUlnMlhTT1FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTg4OTUzCWZpbGU6Um92ZV8wLjEuMV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4xLjEKN3lZZDd4aFR2d05jNURqVDVDOHRORjlpWUNXNFUwdzgxWWk3bXNkWk93TmkwMEwzbUM4d1d2aGdlcDJPRTVUQkVNejVwaEc0NnFhUHNvekFxVDYwRFE9PQo=",
-      "url": "https://api.github.com/repos/ApisornL/Rove-Beta-Downloads/releases/assets/584388130"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSWRUVlFsbmxwWEFCdThpaEdGMmhwNHcxL3lTMnhiVmFMWGZ5YUdMNzlvYjk4VDJlTWtWU2pzQU9uNkJONXdQT1dwTklHNVQ1a09WZXcxNXVMRGZYUHBCNG5YUHp1SmdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTg5NjgxCWZpbGU6Um92ZV8wLjEuMl94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4xLjIKWk9iMFpOdHVtYm5UT2RoU3ZvZk9NUDBKdTF0M1hUWkhLNWdpRE9HUHBXdjcyQ0wyMFM2dGg1aDR1TWlJK3lQVlJWdDJ6eEsvUlV6S1RRM3QvbFliQVE9PQo=",
+      "url": "https://api.github.com/repos/ApisornL/Rove-Beta-Downloads/releases/assets/584404113"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSWRUVlFsbmxwWE1vMHpJMjE2dHoxRGltVEdJUHpFWndhK1FORnNyZ2V3bXhuTklaYlZ0cnVub3NaOGhvdTIwaDlVcE1oTDh3OGtaOTBrRVA0WkRFNmlldFNiczV1OWdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTg4NDEzCWZpbGU6Um92ZS5hcHAudGFyLmd6CXZlcnNpb246MC4xLjEKU2Uxem9pVHZLS2IyRVBCYUxwVXNIT0hSRlZvMVJwazJHMWJXa2U0ZFR2NXdLajdxcXVYOTMySTRIWkdLRzllSHhYM2JhYkNYK3hBU2xaS2tyMko0QlE9PQo=",
-      "url": "https://api.github.com/repos/ApisornL/Rove-Beta-Downloads/releases/assets/584388464"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSWRUVlFsbmxwWEhaaTZYemxFRVVWK2RDYlRRQ0ZmY3N2RnNSQUZ4MDgwc2FKNmpRaUtPSW1WN2NvVUFpN2NLbXJvZllFZVB2d0lGNndjblYrV0grdWlJQTRERHNlNndJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTg5NDMzCWZpbGU6Um92ZS5hcHAudGFyLmd6CXZlcnNpb246MC4xLjIKeVRpcmVndzNObVFaVlJUZVdhdmwvejFyVXBhUGMyRDVVaXE2WVVkbkJzYXdZNUNyTUZkRWZmaTNkVkZNOEcyM29XRE9FbGtiU1lOc1BNMGgzQzI5RHc9PQo=",
+      "url": "https://api.github.com/repos/ApisornL/Rove-Beta-Downloads/releases/assets/584404216"
     }
   }
 }
