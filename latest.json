@@ -1,15 +1,15 @@
 {
-  "version": "0.1.2",
-  "notes": "Signed beta update rehearsal for Apple Silicon and Windows. Install 0.1.1 first, then use Settings > Updates to upgrade to 0.1.2.",
-  "pub_date": "2026-09-23T18:56:32Z",
+  "version": "0.1.3",
+  "notes": "Rove 0.1.3 beta for Windows x64 and macOS Apple Silicon.\n\nThis release packages the current desktop work, including the new Rove logo, unified Settings, custom themes and accents, editor preferences, network configuration, Datasets, local Schedules, Performance testing, and the latest request/report and resource-use improvements.\n\nRecent interaction improvements:\n- Steps starts collapsed, uses the Cases-style disclosure, and preserves Response space.\n- Accent supports a custom color palette and HEX input with Apply/Discard.\n- HTML preview has an external-assets status toggle, icon refresh, and minus/percentage/plus zoom controls.\n- Navigation follows API, Variables, Datasets, Mock Server, Regression, Performance, History, and Source Control.\n- Select a value and choose Create Variable to save it to Environment or the current Request/Case. JSON reference replacement preserves the value's type.\n- cURL apply participates in Request Undo/Redo and no longer leaves a generic success notice.\n\nDownloads:\n- Windows x64: use the NSIS setup .exe.\n- MacBook with an M-series chip: use the aarch64 .dmg, open it, and copy Rove to Applications.\n\nThe Mac beta uses ad-hoc signing and is not Apple-notarized. If macOS blocks a trusted, checksum-verified first launch, try opening the installed app, then use System Settings > Privacy & Security > Open Anyway. Apple guidance: https://support.apple.com/102445.\n\nUpdater payloads and the public update policy are signed with the existing Rove updater key. This is an optional update for supported installed versions; the existing minimum supported version is preserved.\n",
+  "pub_date": "2026-10-06T19:40:47Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSWRUVlFsbmxwWEFCdThpaEdGMmhwNHcxL3lTMnhiVmFMWGZ5YUdMNzlvYjk4VDJlTWtWU2pzQU9uNkJONXdQT1dwTklHNVQ1a09WZXcxNXVMRGZYUHBCNG5YUHp1SmdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTg5NjgxCWZpbGU6Um92ZV8wLjEuMl94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4xLjIKWk9iMFpOdHVtYm5UT2RoU3ZvZk9NUDBKdTF0M1hUWkhLNWdpRE9HUHBXdjcyQ0wyMFM2dGg1aDR1TWlJK3lQVlJWdDJ6eEsvUlV6S1RRM3QvbFliQVE9PQo=",
-      "url": "https://api.github.com/repos/ApisornL/Rove-Beta-Downloads/releases/assets/584404113"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSWRUVlFsbmxwWEhYbUJnWXFrcXFZWkVEK3J2UkhLVnNPWmNkZC9naVVXQWpHSDNkbU9pWE9ocGlYZTJTYThNc1pSQzFuM1lpaTJuMDJXazBEYVVOZGc0VTdIUmFXU0E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMzE1NjQ2CWZpbGU6Um92ZV8wLjEuM194NjQtc2V0dXAuZXhlCXZlcnNpb246MC4xLjMKbGFSUFpDSVpXL01DRXQ3OVpGeUlHRXIrZVM5NXpNZ1VIeXJNc1RZdFdxNUNrZ2lBRjlQangvSWNqeVBVMFRaT05uUkVkZHgxUDJqNXFlVFNQdWpoQVE9PQo=",
+      "url": "https://api.github.com/repos/ApisornL/Rove-Beta-Downloads/releases/assets/616478009"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSWRUVlFsbmxwWEhaaTZYemxFRVVWK2RDYlRRQ0ZmY3N2RnNSQUZ4MDgwc2FKNmpRaUtPSW1WN2NvVUFpN2NLbXJvZllFZVB2d0lGNndjblYrV0grdWlJQTRERHNlNndJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTg5NDMzCWZpbGU6Um92ZS5hcHAudGFyLmd6CXZlcnNpb246MC4xLjIKeVRpcmVndzNObVFaVlJUZVdhdmwvejFyVXBhUGMyRDVVaXE2WVVkbkJzYXdZNUNyTUZkRWZmaTNkVkZNOEcyM29XRE9FbGtiU1lOc1BNMGgzQzI5RHc9PQo=",
-      "url": "https://api.github.com/repos/ApisornL/Rove-Beta-Downloads/releases/assets/584404216"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSWRUVlFsbmxwWEpHMy9tQ0RCV0EwM0xLMWIyNkI5SVlBZGxxM0s4cW54cUM5V3JlQTgyazFOdGZjK1FzVHdMNFhXclBTSStNeXVXRWRQc3lOTm5qVWkrMTNxbFh1SkFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMzE1NjQ3CWZpbGU6Um92ZS5hcHAudGFyLmd6CXZlcnNpb246MC4xLjMKSUNSRDNiUXV5MDAvWnZrdEhPVUFWNWZ6UHptZTVoekZ2TEowTGhQM09PTUpQeEpKL0xhNmttRk5LU29wMDZuTS84Z2l1Yk9vTWJlNkJzeHh2MktzQUE9PQo=",
+      "url": "https://api.github.com/repos/ApisornL/Rove-Beta-Downloads/releases/assets/616478227"
     }
   }
 }
